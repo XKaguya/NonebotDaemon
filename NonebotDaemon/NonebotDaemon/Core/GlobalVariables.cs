@@ -6,8 +6,8 @@ namespace NonebotDaemon.Core
     {
         [Description("Set to true to allow NonebotDaemon auto update. \nDefault value: true")]
         public static bool AutoUpdate {get; set;}
-        [Description("Nonebot heartbeat interval time. (Seconds) \nDefault value: 5")]
-        public static ushort HeartbeatInterval { get; set; } = 5;
+        [Description("Nonebot heartbeat interval time. (Seconds) \nDefault value: 15")]
+        public static ushort HeartbeatInterval { get; set; } = 15;
         [Description("Set to true if using Poetry or etc. \nDefault value: false")]
         public static bool IsUsingVirtualEnvironment { get; set; } = false;
         [Description("Nonebot entry. \nDefault value: bot.py")]
