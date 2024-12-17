@@ -5,7 +5,7 @@ namespace NonebotDaemon.Core
     public class GlobalVariables
     {
         [Description("Set to true to allow NonebotDaemon auto update. \nDefault value: true")]
-        public static bool AutoUpdate {get; set;}
+        public static bool AutoUpdate {get; set;} = true;
         [Description("Nonebot heartbeat interval time. (Seconds) \nDefault value: 15")]
         public static ushort HeartbeatInterval { get; set; } = 15;
         [Description("Set to true if using Poetry or etc. \nDefault value: false")]
