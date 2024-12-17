@@ -28,6 +28,7 @@ namespace NonebotDaemon.Core
             ProcessConfig.ParseConfig();
             
             AutoUpdate.StartAutoUpdateTask();
+            AutoUpdate.CheckAndUpdate();
             
             string prefix = $"{GlobalVariables.WebSocketListenerAddress}:{GlobalVariables.WebSocketListenerPort}/";
             string[] prefixes = { prefix };
